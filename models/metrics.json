@@ -1,0 +1,21 @@
+{
+    "best_model": "random_forest",
+    "dataset_rows": 100000,
+    "feature_count": 23,
+    "models": {
+        "logistic_regression": {
+            "accuracy": 0.5577,
+            "precision": 0.599,
+            "recall": 0.5683,
+            "f1_score": 0.5832,
+            "classification_report": "              precision    recall  f1-score   support\n\n  Not Placed       0.51      0.55      0.53      9108\n      Placed       0.60      0.57      0.58     10892\n\n    accuracy                           0.56     20000\n   macro avg       0.56      0.56      0.56     20000\nweighted avg       0.56      0.56      0.56     20000\n"
+        },
+        "random_forest": {
+            "accuracy": 0.5551,
+            "precision": 0.5936,
+            "recall": 0.5803,
+            "f1_score": 0.5869,
+            "classification_report": "              precision    recall  f1-score   support\n\n  Not Placed       0.51      0.52      0.52      9108\n      Placed       0.59      0.58      0.59     10892\n\n    accuracy                           0.56     20000\n   macro avg       0.55      0.55      0.55     20000\nweighted avg       0.56      0.56      0.56     20000\n"
+        }
+    }
+}

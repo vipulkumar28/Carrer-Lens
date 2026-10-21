@@ -1,0 +1,284 @@
+{
+    "Data & AI": {
+        "Data Analyst": {
+            "recommended_backgrounds": ["CSE", "IT", "ECE", "EEE", "Mathematics", "Statistics"],
+            "technical_requirements": {
+                "Python": 70,
+                "SQL": 75,
+                "Excel": 70,
+                "Statistics": 70,
+                "Data Visualization": 65,
+                "Power BI / Tableau": 60
+            },
+            "experience_requirements": {
+                "projects_count": 2,
+                "internships_count": 1
+            }
+        },
+        "Data Scientist": {
+            "recommended_backgrounds": ["CSE", "IT", "ECE", "EEE", "Mathematics", "Statistics"],
+            "technical_requirements": {
+                "Python": 75,
+                "SQL": 70,
+                "Statistics": 75,
+                "Machine Learning": 75,
+                "Data Visualization": 65,
+                "Git / GitHub": 60
+            },
+            "experience_requirements": {
+                "projects_count": 3,
+                "internships_count": 1
+            }
+        },
+        "ML Engineer": {
+            "recommended_backgrounds": ["CSE", "IT", "ECE", "EEE"],
+            "technical_requirements": {
+                "Python": 80,
+                "Machine Learning": 80,
+                "SQL": 65,
+                "Git / GitHub": 70,
+                "Cloud Fundamentals": 60
+            },
+            "experience_requirements": {
+                "projects_count": 3,
+                "internships_count": 1
+            }
+        },
+        "BI Analyst": {
+            "recommended_backgrounds": ["CSE", "IT", "ECE", "EEE", "BBA", "BCom", "Economics"],
+            "technical_requirements": {
+                "Excel": 80,
+                "SQL": 70,
+                "Power BI / Tableau": 75,
+                "Data Visualization": 70,
+                "Business Communication": 65
+            },
+            "experience_requirements": {
+                "projects_count": 2,
+                "internships_count": 1
+            }
+        }
+    },
+    "Software & IT": {
+        "Software Developer": {
+            "recommended_backgrounds": ["CSE", "IT", "ECE", "EEE"],
+            "technical_requirements": {
+                "Python": 70,
+                "Java": 60,
+                "Data Structures and Algorithms": 75,
+                "SQL": 65,
+                "Git / GitHub": 70,
+                "Backend Development": 60
+            },
+            "experience_requirements": {
+                "projects_count": 3,
+                "internships_count": 1
+            }
+        },
+        "Frontend Developer": {
+            "recommended_backgrounds": ["CSE", "IT", "ECE", "EEE", "Design"],
+            "technical_requirements": {
+                "JavaScript": 75,
+                "Frontend Development": 75,
+                "Git / GitHub": 65,
+                "UI Design": 60
+            },
+            "experience_requirements": {
+                "projects_count": 3,
+                "internships_count": 0
+            }
+        },
+        "QA Engineer": {
+            "recommended_backgrounds": ["CSE", "IT", "ECE", "EEE"],
+            "technical_requirements": {
+                "Python": 60,
+                "SQL": 60,
+                "Git / GitHub": 60,
+                "Problem Solving": 70
+            },
+            "experience_requirements": {
+                "projects_count": 2,
+                "internships_count": 0
+            }
+        }
+    },
+    "Cybersecurity": {
+        "Security Analyst": {
+            "recommended_backgrounds": ["CSE", "IT", "ECE", "EEE"],
+            "technical_requirements": {
+                "Networking": 75,
+                "Linux": 70,
+                "Web Security": 65,
+                "Security Tools": 60,
+                "Python": 55
+            },
+            "experience_requirements": {
+                "projects_count": 2,
+                "internships_count": 0
+            }
+        }
+    },
+    "Electronics & Embedded": {
+        "Embedded Engineer": {
+            "recommended_backgrounds": ["ECE", "EEE", "CSE", "IT"],
+            "technical_requirements": {
+                "C / C++": 75,
+                "Embedded Systems": 75,
+                "Microcontrollers": 70,
+                "Digital Electronics": 70,
+                "IoT": 55
+            },
+            "experience_requirements": {
+                "projects_count": 2,
+                "internships_count": 1
+            }
+        },
+        "IoT Engineer": {
+            "recommended_backgrounds": ["ECE", "EEE", "CSE", "IT"],
+            "technical_requirements": {
+                "C / C++": 65,
+                "Embedded Systems": 65,
+                "Microcontrollers": 70,
+                "IoT": 75,
+                "Networking": 55
+            },
+            "experience_requirements": {
+                "projects_count": 2,
+                "internships_count": 0
+            }
+        }
+    },
+    "Mechanical Engineering": {
+        "Mechanical Design Engineer": {
+            "recommended_backgrounds": ["Mechanical"],
+            "technical_requirements": {
+                "AutoCAD": 70,
+                "SolidWorks": 75,
+                "CAD": 75,
+                "Machine Design": 70,
+                "Manufacturing Processes": 65
+            },
+            "experience_requirements": {
+                "projects_count": 2,
+                "internships_count": 1
+            }
+        },
+        "Manufacturing Engineer": {
+            "recommended_backgrounds": ["Mechanical"],
+            "technical_requirements": {
+                "Manufacturing Processes": 75,
+                "Quality Control": 65,
+                "Production Planning": 70,
+                "CAD": 60,
+                "Thermodynamics": 60
+            },
+            "experience_requirements": {
+                "projects_count": 2,
+                "internships_count": 1
+            }
+        }
+    },
+    "Civil Engineering": {
+        "Civil Site Engineer": {
+            "recommended_backgrounds": ["Civil"],
+            "technical_requirements": {
+                "AutoCAD": 70,
+                "Surveying": 70,
+                "Estimation and Costing": 65,
+                "Construction Planning": 70,
+                "Site Safety": 70
+            },
+            "experience_requirements": {
+                "projects_count": 2,
+                "internships_count": 1
+            }
+        },
+        "BIM Engineer": {
+            "recommended_backgrounds": ["Civil", "Mechanical"],
+            "technical_requirements": {
+                "AutoCAD": 70,
+                "Revit / BIM": 75,
+                "Construction Planning": 60,
+                "Project Scheduling": 60
+            },
+            "experience_requirements": {
+                "projects_count": 2,
+                "internships_count": 0
+            }
+        }
+    },
+    "Business & Analytics": {
+        "Business Analyst": {
+            "recommended_backgrounds": ["CSE", "IT", "ECE", "EEE", "Mechanical", "Civil", "BBA", "BCom", "Economics"],
+            "technical_requirements": {
+                "Excel": 75,
+                "Business Analysis": 75,
+                "Presentation Skills": 70,
+                "Business Communication": 75,
+                "SQL": 55
+            },
+            "experience_requirements": {
+                "projects_count": 2,
+                "internships_count": 0
+            }
+        },
+        "Operations Analyst": {
+            "recommended_backgrounds": ["CSE", "IT", "ECE", "EEE", "Mechanical", "Civil", "BBA", "BCom"],
+            "technical_requirements": {
+                "Excel": 75,
+                "Data Analysis": 65,
+                "Business Communication": 70,
+                "Project Coordination": 65
+            },
+            "experience_requirements": {
+                "projects_count": 1,
+                "internships_count": 0
+            }
+        }
+    },
+    "Design & Creative": {
+        "UI/UX Designer": {
+            "recommended_backgrounds": ["CSE", "IT", "Design", "Mechanical", "Civil", "BBA"],
+            "technical_requirements": {
+                "Figma": 75,
+                "UI Design": 75,
+                "UX Research": 65,
+                "Wireframing": 70,
+                "Portfolio Development": 75
+            },
+            "experience_requirements": {
+                "projects_count": 3,
+                "internships_count": 0
+            }
+        }
+    },
+    "Product & Management": {
+        "Product Analyst": {
+            "recommended_backgrounds": ["CSE", "IT", "ECE", "EEE", "Mechanical", "Civil", "BBA", "BCom"],
+            "technical_requirements": {
+                "Product Thinking": 70,
+                "Data Analysis": 65,
+                "Market Research": 65,
+                "Communication": 75,
+                "Presentation Skills": 70
+            },
+            "experience_requirements": {
+                "projects_count": 2,
+                "internships_count": 0
+            }
+        },
+        "Project Coordinator": {
+            "recommended_backgrounds": ["CSE", "IT", "ECE", "EEE", "Mechanical", "Civil", "BBA", "BCom"],
+            "technical_requirements": {
+                "Project Management": 70,
+                "Communication": 75,
+                "Stakeholder Management": 65,
+                "Presentation Skills": 70
+            },
+            "experience_requirements": {
+                "projects_count": 1,
+                "internships_count": 0
+            }
+        }
+    }
+}
