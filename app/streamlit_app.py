@@ -29,9 +29,9 @@ from src.skill_profile_engine import (
     get_skills_for_domain,
 )
 
-PROJECT_TITLE = "CareerLens"
+PROJECT_TITLE = "Career-Lenss"
 PROJECT_SUBTITLE = (
-    "End-to-End ML-Based Placement Prediction, "
+    "End-to-End ML-Based Placement Prediction for Engineering Domains, "
     "Explainable Skill-Gap Analysis"
 )
 
@@ -62,7 +62,7 @@ VOLUNTEER_OPTIONS = [
 
 
 st.set_page_config(
-    page_title="CareerLens",
+    page_title="Career-Lenss",
     page_icon="🎓",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -206,12 +206,12 @@ def reset_profile():
 
 def display_sidebar():
     with st.sidebar:
-        st.markdown("## 🎓 CareerLens")
+        st.markdown("## 🎓 Career-Lenss")
         st.caption("Career readiness intelligence")
 
         st.divider()
 
-        st.markdown("### CareerLens workflow")
+        st.markdown("### Career-Lenss workflow")
         st.markdown(
             """
             1. Complete academic profile
@@ -248,7 +248,7 @@ def display_sidebar():
 
         st.markdown("### Important")
         st.caption(
-            "CareerLens is an academic decision-support project. "
+            "Career-Lenss is an academic decision-support project. "
             "It does not guarantee placement, job selection, or employment."
         )
 
@@ -308,7 +308,7 @@ def collect_academic_step():
                 4.5,
                 10.0,
                 get_draft_value("cgpa", 7.5),
-                0.01,
+                0.1,
                 "academic_cgpa",
             )
 
@@ -346,10 +346,10 @@ def collect_academic_step():
 
             attendance = number_input(
                 "Attendance Percentage",
-                50.0,
+                40.0,
                 100.0,
                 get_draft_value("attendance_percentage", 85.0),
-                0.1,
+                0.5,
                 "academic_attendance",
             )
 
@@ -371,7 +371,7 @@ def collect_academic_step():
                 3.0,
                 10.0,
                 get_draft_value("sleep_hours", 7.0),
-                0.1,
+                0.5,
                 "academic_sleep_hours",
             )
 
@@ -381,7 +381,7 @@ def collect_academic_step():
                 0.5,
                 10.0,
                 get_draft_value("study_hours_per_day", 3.5),
-                0.1,
+                0.5,
                 "academic_study_hours",
             )
 
@@ -430,7 +430,7 @@ def collect_career_step():
 
     st.caption(
         "Career exploration is independent from the placement dataset. "
-        "Choose any career domain. CareerLens will show academic "
+        "Choose any career domain. CareerLenss will show academic "
         "compatibility instead of hiding career opportunities."
     )
 
@@ -533,7 +533,7 @@ def collect_skills_step():
                 20.0,
                 100.0,
                 get_draft_value("aptitude_score", 65.0),
-                0.1,
+                0.5,
                 "skills_aptitude",
             )
 
@@ -546,7 +546,7 @@ def collect_skills_step():
                     "communication_skill_score",
                     68.0,
                 ),
-                0.1,
+                0.2,
                 "skills_communication",
             )
 
@@ -559,7 +559,7 @@ def collect_skills_step():
                     "logical_reasoning_score",
                     66.0,
                 ),
-                0.1,
+                0.2,
                 "skills_logical_reasoning",
             )
 
@@ -571,7 +571,7 @@ def collect_skills_step():
                     "mock_interview_score",
                     70.0,
                 ),
-                0.1,
+                0.2,
                 "skills_mock_interview",
             )
 
@@ -688,7 +688,7 @@ def collect_experience_step():
                 0.0,
                 100.0,
                 get_draft_value("extracurricular_score", 60.0),
-                0.1,
+                0.5,
                 "experience_extracurricular",
             )
 
@@ -697,7 +697,7 @@ def collect_experience_step():
                 0.0,
                 100.0,
                 get_draft_value("leadership_score", 55.0),
-                0.1,
+                0.5,
                 "experience_leadership",
             )
 
@@ -724,7 +724,7 @@ def collect_experience_step():
                         "coding_skill_score",
                         70.0,
                     ),
-                    0.1,
+                    0.2,
                     "experience_coding_score",
                     help_text=(
                         "Required by the current branch-specific "
@@ -747,7 +747,7 @@ def collect_experience_step():
                 github_repos = number_input(
                     "GitHub Repositories",
                     0,
-                    16,
+                    20,
                     get_draft_value("github_repos", 4),
                     1,
                     "experience_github",
@@ -755,13 +755,13 @@ def collect_experience_step():
 
                 linkedin_connections = number_input(
                     "LinkedIn Connections",
-                    50,
+                    10,
                     999,
                     get_draft_value(
                         "linkedin_connections",
                         500,
                     ),
-                    1,
+                    5,
                     "experience_linkedin",
                 )
             else:
@@ -932,7 +932,7 @@ def collect_profile():
 
     st.markdown(
         """
-        <div class="section-title">Build your CareerLens profile</div>
+        <div class="section-title">Build your Career-Lenss profile</div>
         <div class="section-caption">
         Complete each step in sequence. Your values remain saved while you
         move backward or forward through the assessment.
@@ -1270,7 +1270,7 @@ def create_report(
     )
 
     lines = [
-        "CAREERLENS CAREER READINESS REPORT",
+        "CAREER-LENSS CAREER READINESS REPORT",
         "=" * 72,
         PROJECT_SUBTITLE,
         "",
@@ -1376,7 +1376,7 @@ def create_report(
         [
             "DISCLAIMER",
             "-" * 72,
-            "CareerLens is an educational decision-support project.",
+            "Career-Lenss is an educational decision-support project.",
             "Placement probability is an ML estimate based on the available",
             "training dataset and does not guarantee employment.",
             "Role-specific technical skill ratings are used only for career",
@@ -1388,7 +1388,7 @@ def create_report(
 
 def run_analysis(profile):
     with st.spinner(
-        "CareerLens is analyzing your profile and generating insights...",
+        "Career-Lenss is analyzing your profile and generating insights...",
         show_time=True,
     ):
         time.sleep(0.5)
@@ -1475,12 +1475,12 @@ def display_analysis_results():
         unsafe_allow_html=True,
     )
 
-    st.subheader("Download Your CareerLens Report")
+    st.subheader("Download Your Career-Lenss Report")
 
     st.download_button(
         label="📄 Download Career Readiness Report",
         data=report,
-        file_name="career_lens_report.txt",
+        file_name="career_lenss_report.txt",
         mime="text/plain",
         use_container_width=True,
     )
@@ -1537,7 +1537,7 @@ def main():
         f"""
         <div class="footer">
             {PROJECT_TITLE}<br>
-            Academic end-to-end machine-learning project.
+            End-to-End machine-learning project.
         </div>
         """,
         unsafe_allow_html=True,
